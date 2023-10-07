@@ -7,7 +7,7 @@ const Choices = ({questions,progress,selected,setSelected}) => {
     }
     return (
     <div className='flex flex-col items-center'>
-        <p className='font-bold text-main-blue text-center text-xl md:text-2xl mx-3 mt-12'>{questions[progress-1].question}</p>
+        <p className='font-bold text-main-blue text-center text-xl md:text-2xl mx-3 md:mt-0 mt-12'>{questions[progress-1].question}</p>
         <div className='flex flex-col space-y-2 mt-24 md:mt-10'>
             {questions[progress-1].choices.map((e,index)=>(
                 <button onClick={(e)=>{handleClick(e,index)}} className={`p-2 ${selected===index+1?'bg-main-green text-white':'bg-white text-main-black'} flex items-center text-sm md:text-base space-x-4 md:space-x-8 md:w-96 w-80 rounded-md duration-300`}>
