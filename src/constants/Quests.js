@@ -127,5 +127,25 @@ export const Quests =[
             }
         ]
     },
-    
+    {
+        question:'Affichaw, wch reaction t3k ?',
+        choices:[
+            {
+                choice:'Hhhhhhhhhhhhhhhhhhhh wkhlas',
+                characters:['Tobni','Attia']
+            },
+            {
+                choice:'Ra7 ndi 18 ',
+                characters:['Raouf','L3mdch']
+            },
+            {
+                choice:'Normal li jat fiha khir',
+                characters:['3mor','Fadel','Lws','Zoubir','Lgr3ich','Kader','Fadel','Fadi']
+            },
+            {
+                choice:'Maro7tch n3agb control tol hhhh',
+                characters:['Sdide9']
+            }
+        ]
+    }
 ]
